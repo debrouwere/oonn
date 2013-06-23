@@ -1,0 +1,21 @@
+## Running the OpenOpenNewsNews database server
+
+    # data fetcher / saver
+    coffee src/app.coffee
+    # shows what's in the database
+    coffee src/server.coffee
+
+## Creating your own facet
+
+Create your facet so that it can respond to a POST request that contains
+a JSON payload with, among other things, the url which you are annotating.
+
+It should respond to the request with whatever information you want to add.
+
+Secondly, enable the facet by adding it to `src/config/article.yml` or 
+`src/config/homepage.yml` depending on whether you're annotating the homepage
+or articles.
+
+In the config file, you can specify any dependencies, so if your facet depends
+on another one having run first you can indicate that. For example, you need to 
+first extract the body text before you can do a word count.

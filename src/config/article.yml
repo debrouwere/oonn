@@ -1,0 +1,11 @@
+#twitter:
+#    endpoint: 'http://urls.api.twitter.com/1/urls/count.json'
+#twitter2:
+#    endpoint: 'http://urls.api.twitter.com/1/urls/count.json'
+
+wordcount:
+    endpoint: 'http://localhost:5000/article'
+doubler:
+    endpoint: 'http://localhost:5000/doubler'
+    dependencies:
+        - wordcount

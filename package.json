@@ -1,0 +1,25 @@
+{
+  "name": "openopennewsnews",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/server.js",
+  "dependencies": {
+    "yaml": "",
+    "request": "2.x",
+    "underscore": "1.x",
+    "express": "3.x",
+    "aws-sdk": "0.9.x", 
+    "async": "0.2.x"
+  },
+  "devDependencies": {
+    "should": "",
+    "supertest": ""
+    },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "",
+  "author": "OpenNews",
+  "license": "MIT",
+  "readmeFilename": "README"
+}

@@ -1,0 +1,2 @@
+scraper:
+    endpoint: 'http://localhost:5000/homepage'
